@@ -17,6 +17,8 @@ The playfield wraps, and is not infite. Run the script specifying parameters as 
 ### Keys
 Space: Pause/Unpause
 
+q: exit script
+
 f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
 
 c: Clear field
