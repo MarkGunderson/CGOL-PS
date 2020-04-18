@@ -11,11 +11,15 @@ Run the script specifying parameters as necessary
 
 Space: Pause/Unpause
 
-F: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit.
+f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit.
 
-C: Clear Field
+n: Clear Field
 
-N: Advance once generation while paused
+r: Randomize the field
+
+R: Set the field to the initial randomized state for this session (i.e., reset the random seed)
+
+n: Advance once generation while paused
 
 Shift + Number Keys: Save field state 
 
