@@ -38,7 +38,7 @@ The playfield wraps, and is not infite. Run the script specifying parameters as 
 
 **< or >**: Cycle dead cell color
 
-## Initial release: v0.1
+#### Initial release: v0.1
 
 ### Acknowledgements
 Window position type definition gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
