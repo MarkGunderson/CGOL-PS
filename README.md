@@ -18,7 +18,7 @@ Space: Pause/Unpause
 
 f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
 
-c: Clear Field
+c: Clear field
 
 r: Randomize the field
 
@@ -30,9 +30,9 @@ Shift + Number Keys: Save field state
 
 Number keys: Load save state
 
-, .: Cycle Live Cell Color
+, .: Cycle live cell color
 
-< >: Cycle Dead Cell Color
+< >: Cycle cead cell color
 
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
 
