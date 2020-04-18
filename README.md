@@ -1,7 +1,7 @@
 # CGOL-PS
 Conway's Game of Life in PowerShell
 
-A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation!
+A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation.
 
 Run the script specifying parameters as necessary
 
