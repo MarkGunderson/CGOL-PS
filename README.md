@@ -17,25 +17,25 @@ The playfield wraps, and is not infite. Run the script specifying parameters as 
 ### Keys
 Space: Pause/Unpause
 
-q: exit script
+**q**: exit script
 
-f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
+**f**: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
 
-c: Clear field
+**c**: Clear field
 
-r: Randomize the field
+**r**: Randomize the field
 
-R: Set the field to the initial randomized state for this session (i.e., reset the random seed)
+**R**: Set the field to the initial randomized state for this session (i.e., reset the random seed)
 
-n: Advance once generation while paused
+**n**: Advance one generation while paused
 
-Shift + Number Keys: Save field state 
+**Shift + Number Keys**: Save field state 
 
-Number keys: Load save state
+**Number keys**: Load save state
 
-, .: Cycle live cell color
+**, or .** : Cycle live cell color
 
-< >: Cycle dead cell color
+**< or >**: Cycle dead cell color
 
 ### Acknowledgements
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
