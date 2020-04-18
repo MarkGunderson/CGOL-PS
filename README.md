@@ -12,7 +12,7 @@ Features:
 * 10 save slots for all those spicy patterns
 * Change colors! Background and foreground!
 
-Run the script specifying parameters as necessary. Mouse accuracy may require adjustment. There is a discrepancy between window position reported by GetWindowRect and the apparent position reported by \[System.Windows.Forms.Cursor\]::Position when pointing at the edges of the window, even for bottom and left which have no meaningful border. Thankfully, these are linear offsets, so they can be specified in the script parameters. If you need to adjust them for your system, maybe change the defaults in your local copy 
+The playfield wraps, and is not infite. Run the script specifying parameters as necessary. Mouse accuracy may require adjustment. There is a discrepancy between window position reported by GetWindowRect and the apparent position reported by \[System.Windows.Forms.Cursor\]::Position when pointing at the edges of the window, even for bottom and left which have no meaningful border. Thankfully, these are linear offsets, so they can be specified in the script parameters. If you need to adjust them for your system, maybe change the defaults in your local copy 
 
 Space: Pause/Unpause
 
