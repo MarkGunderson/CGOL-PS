@@ -33,7 +33,7 @@ Number keys: Load save state
 
 , .: Cycle live cell color
 
-< >: Cycle cead cell color
+< >: Cycle dead cell color
 
 ### Acknowledgements
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
