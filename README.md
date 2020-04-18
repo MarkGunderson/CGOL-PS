@@ -1,11 +1,11 @@
 # CGOL-PS
-Conway's Game of Life in PowerShell
+## Conway's Game of Life in PowerShell
 
 ![screen](/img/duelinggospergliderguns.png)
 
 A limited version of Conway's Game of Life written in PowerShell.
 
-Features:
+### Features:
 * Mere orders of magnitude less performant than proper GoL implementations
 * Uses the buffer to look kind of okay
 * Pseudo mouse support for editing
@@ -14,6 +14,7 @@ Features:
 
 The playfield wraps, and is not infite. Run the script specifying parameters as necessary. Mouse accuracy may require adjustment. There is a discrepancy between window position reported by GetWindowRect and the apparent position reported by \[System.Windows.Forms.Cursor\]::Position when pointing at the edges of the window, even for bottom and left which have no meaningful border. Thankfully, these are linear offsets, so they can be specified in the script parameters. If you need to adjust them for your system, maybe change the defaults in your local copy 
 
+### Keys
 Space: Pause/Unpause
 
 f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
@@ -34,9 +35,10 @@ Number keys: Load save state
 
 < >: Cycle cead cell color
 
+### Acknowledgements
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
 
-Planned changes:
+### Planned changes:
 * Replace redundant sections with functions
 * Infinite play field support and performance improvements. Maybe just replace the engine with a bit of c# and Add-Type? Does this defeat the purpose?
 * Mouse clicks and in-game calibration if necessary. Probably using the [globalmousekeyhook](http://github.com) library.
