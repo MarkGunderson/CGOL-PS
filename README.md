@@ -3,9 +3,14 @@ Conway's Game of Life in PowerShell
 
 ![screen](/img/duelinggospergliderguns.png)
 
-A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation. The field is finite, wrapping at the edges. Each console character represents an upper and lower cell, resulting in double the vertical resolution.
+A limited version of Conway's Game of Life written in PowerShell.
 
-Pseudo mouse support is included for editing cells. If the positioning is off, you may need to adjust the window offset parameters (when you find them, go ahead and update the defaults in the script for your system).
+Features:
+* Mere orders of magnitude less performant than proper GoL implementations
+* Uses the buffer to look kind of okay
+* Pseudo mouse support for editing
+* 10 save slots for all those spicy patterns
+* Change colors! Background and foreground!
 
 Run the script specifying parameters as necessary
 
