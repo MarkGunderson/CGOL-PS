@@ -1,7 +1,7 @@
 ﻿param(
     [int32]$Seed,
     [int]$Generations=0,
-    [int16]$Density=15,
+    [int16]$Density=10,
     [bool]$Show=$true,
     [int]$MaxFrameRate=30,
     [switch]$StartPaused,
