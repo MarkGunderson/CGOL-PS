@@ -11,11 +11,11 @@ Run the script specifying parameters as necessary
 
 Space: Pause/Unpause
 
+F: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit.
+
 C: Clear Field
 
 N: Advance once generation while paused
-
-F: Pseudo mouse click to toggle cell status
 
 Shift + Number Keys: Save field state 
 
