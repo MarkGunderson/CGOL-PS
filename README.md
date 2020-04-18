@@ -1,7 +1,7 @@
 # CGOL-PS
 Conway's Game of Life in PowerShell
 
-![screen](/img/duelinggospergliders.png)
+![screen](/img/duelinggospergliderguns.png)
 
 A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation. The game field is not infinite, it wraps around. Each console character represents an upper and lower cell, resulting in double the vertical resolution.
 
