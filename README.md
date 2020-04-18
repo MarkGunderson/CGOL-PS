@@ -3,7 +3,9 @@ Conway's Game of Life in PowerShell
 
 ![screen](/img/duelinggospergliderguns.png)
 
-A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation. The game field is not infinite, it wraps around. Each console character represents an upper and lower cell, resulting in double the vertical resolution.
+A limited version of Conway's Game of Life written in PowerShell that sacrifices mere orders of magnitude in performance versus a proper implementation. The field is finite, wrapping at the edges. Each console character represents an upper and lower cell, resulting in double the vertical resolution.
+
+Pseudo mouse support is included for editing cells. If the positioning is off, you may need to adjust the window offset parameters (when you find them, go ahead and update the defaults in the script for your system).
 
 Run the script specifying parameters as necessary
 
@@ -24,3 +26,9 @@ Number keys: Load save state
 < >: Cycle Dead Cell Color
 
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
+
+Planned changes:
+* Infinite play field and performance improvements
+* Mouse clicks and in-game calibration if necessary
+* Hashing of each generation to identify if a pattern stabilizes and in how many generations
+* Functions to import common GOL pattern notation or file formats e.g., RLE, plaintext, or possibly monochrome bitmaps
