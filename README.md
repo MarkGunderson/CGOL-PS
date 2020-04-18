@@ -12,11 +12,11 @@ Features:
 * 10 save slots for all those spicy patterns
 * Change colors! Background and foreground!
 
-Run the script specifying parameters as necessary
+Run the script specifying parameters as necessary. Mouse accuracy may require adjustment. There is a discrepancy between window position reported by GetWindowRect and the apparent position reported by \[System.Windows.Forms.Cursor\]::Position when pointing at the edges of the window, even for bottom and left which have no meaningful border. Thankfully, these are linear offsets, so they can be specified in the script parameters. If you need to adjust them for your system, maybe change the defaults in your local copy 
 
 Space: Pause/Unpause
 
-f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit.
+f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
 
 n: Clear Field
 
@@ -39,6 +39,6 @@ Window position type info gratefully borrowed from https://gallery.technet.micro
 Planned changes:
 * Replace redundant sections with functions
 * Infinite play field support and performance improvements. Maybe just replace the engine with a bit of c# and Add-Type? Does this defeat the purpose?
-* Mouse clicks and in-game calibration if necessary
+* Mouse clicks and in-game calibration if necessary. Probably using the [globalmousekeyhook](http://github.com) library.
 * Hashing of each generation to identify if a pattern stabilizes and in how many generations
 * Functions to import/export common GOL pattern notation or file formats e.g., RLE, plaintext, or possibly monochrome images
