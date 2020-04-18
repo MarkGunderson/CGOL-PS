@@ -18,7 +18,7 @@ Space: Pause/Unpause
 
 f: Pseudo mouse click to toggle cell status. Move the mouse and tap F to edit. 
 
-n: Clear Field
+c: Clear Field
 
 r: Randomize the field
 
