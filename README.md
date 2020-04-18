@@ -29,9 +29,9 @@ The playfield wraps, and is not infite. Run the script specifying parameters as 
 
 **n**: Advance one generation while paused
 
-**Shift + Number Keys**: Save field state 
+**Shift + Number Keys**: Write field to save slot 
 
-**Number keys**: Load save state
+**Number keys**: Load save slot
 
 **, or .** : Cycle live cell color
 
