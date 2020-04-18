@@ -32,7 +32,8 @@ Number keys: Load save state
 Window position type info gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
 
 Planned changes:
-* Infinite play field and performance improvements
+* Replace redundant sections with functions
+* Infinite play field support and performance improvements
 * Mouse clicks and in-game calibration if necessary
 * Hashing of each generation to identify if a pattern stabilizes and in how many generations
-* Functions to import common GOL pattern notation or file formats e.g., RLE, plaintext, or possibly monochrome bitmaps
+* Functions to import/export common GOL pattern notation or file formats e.g., RLE, plaintext, or possibly monochrome images
