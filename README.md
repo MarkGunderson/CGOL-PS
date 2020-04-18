@@ -13,9 +13,9 @@ N: Advance once generation while paused
 
 F: Pseudo mouse click to toggle cell status
 
-Shift + #: Save field state 
+Shift + Number Keys: Save field state 
 
-3 keys: Load save state
+Number keys: Load save state
 
 , .: Cycle Live Cell Color
 
