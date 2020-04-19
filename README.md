@@ -3,7 +3,7 @@
 #### ver 0.1
 ![screen](/img/duelinggospergliderguns.png)
 
-A limited version of Conway's Game of Life written in PowerShell. 
+A limited version of Conway's Game of Life written in PowerShell.  
 [Overview Video](https://youtu.be/7KzwZLoRwr8)
 
 ### Features:
