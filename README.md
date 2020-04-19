@@ -1,6 +1,6 @@
 # CGOL-PS
 ## Conway's Game of Life in PowerShell
-
+#### ver 0.1
 ![screen](/img/duelinggospergliderguns.png)
 
 A limited version of Conway's Game of Life written in PowerShell.
@@ -37,8 +37,6 @@ The playfield wraps, rather than being infinite. Run the script specifying param
 **, or .** : Cycle live cell color
 
 **< or >**: Cycle dead cell color
-
-#### Initial release: v0.1
 
 ### Acknowledgements
 Window position type definition gratefully borrowed from https://gallery.technet.microsoft.com/scriptcenter/Set-the-position-and-size-54853527
