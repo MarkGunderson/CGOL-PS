@@ -46,6 +46,6 @@ Window position type definition gratefully borrowed from https://gallery.technet
 ### Planned changes:
 * Replace redundant sections with functions
 * Infinite play field support and performance improvements. Maybe just replace the engine with a bit of c# and Add-Type? Does this defeat the purpose?
-* Mouse clicks and in-game calibration if necessary. Probably using the [globalmousekeyhook](http://github.com) library.
+* Mouse clicks and in-game calibration if necessary. Probably using the [globalmousekeyhook](https://github.com/gmamaladze/globalmousekeyhook) library.
 * Hashing of each generation to identify if a pattern stabilizes and in how many generations
 * Functions to import/export common GOL pattern notation or file formats e.g., RLE, plaintext, or possibly monochrome images
